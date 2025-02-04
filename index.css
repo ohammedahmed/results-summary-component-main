@@ -248,9 +248,12 @@ button:hover{
         width:100%;
         border-top-right-radius:0px;
         border-top-left-radius:0px;
+        background-color:red;
     }
     .all{
         border-radius:0;
+        height:105%;
+        overflow:visible;
     }
     .circle{
         width:150px;
@@ -273,13 +276,14 @@ button:hover{
     }
     .right{
         width:100%;
+        background-color:red;
     }
     body{
         background-color:white;
     }
     .p1{
         font-size:20px;
-        margin-top:20px;
+        margin-top:30px;
     }
     .first-h1{
         font-size:23px;
