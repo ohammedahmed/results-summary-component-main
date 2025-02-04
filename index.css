@@ -248,7 +248,6 @@ button:hover{
         width:100%;
         border-top-right-radius:0px;
         border-top-left-radius:0px;
-        background-color:red;
     }
     .all{
         border-radius:0;
@@ -288,12 +287,17 @@ button:hover{
         font-size:23px;
     }
     .score{
-        font-size:15px
+        font-size:15px;
+        margin:0;
     }
     .second-h1{
         margin-top:20px;
     }
     button{
         margin-top:0;
+    }
+    .left-down{
+        display:flex;
+        justify-content:flex-end;
     }
 }
